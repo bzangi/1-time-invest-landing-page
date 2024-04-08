@@ -483,7 +483,7 @@ footer .logo img {
 }
 
 .image-grid-item {
-  width: calc(100% - 20px);
+  width: calc(90% - 20px);
   text-align: center;
   height: auto;
   overflow: hidden;
@@ -499,6 +499,15 @@ footer .logo img {
   height: auto;
   object-fit: fill;
   vertical-align: middle;
+}
+
+.image-container {
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  box-shadow: inset -5px -5px 100px 0px #0000008f;
 }
 
 @font-face {

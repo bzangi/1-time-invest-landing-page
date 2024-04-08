@@ -39,18 +39,18 @@ document.addEventListener("DOMContentLoaded", function () {
     var div = document.createElement("div");
     div.classList.add("image-grid-item");
 
-    // Create an img element
-    var img = document.createElement("img");
-    img.src = "assets/fotos-funcionarios/" + fileName;
-    img.alt = fileName.split(".")[0]; // Set alt attribute using file name without extension
+    var imgDiv = document.createElement("div");
+    imgDiv.classList.add("image-container");
+
 
     var description = document.createElement("p");
     description.classList.add("equipe-img-description");
     description.textContent = fileName.split(".")[0];
 
-    // Append the img element to the div
-    div.appendChild(img);
+    div.appendChild(imgDiv);
     div.appendChild(description);
+
+    imgDiv.style.backgroundImage = `url('assets/fotos-funcionarios/${fileName}')`;
 
     // Append the div to the container
     container.appendChild(div);
