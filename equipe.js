@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "Ana Carolina Nascimento Camanzano.jpg",
     "Andreza Manucci Crozariolo.jpg",
     "Caio Alessandro do Nascimento Manoel.jpg",
-    "Cayan de Lima Fernandes.jpg",
     "Claudia Maria Ramos Araujo dos Santos.jpg",
     "Eduardo Brandao Machado.jpg",
     "Enzo Peloso.jpg",
