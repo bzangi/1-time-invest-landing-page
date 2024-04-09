@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "Leonardo de Paula Silva.jpg",
     "Leonardo de Rosa.jpg",
     "Matheus Silva Duarte.jpg",
-    "Rafael Garcia Silva.jpg",
     "Raphael Graziano Vasques.jpg",
     "Talita Mathias Colombo.jpg",
     "Tuanny Santos Campos.jpg"
