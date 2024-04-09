@@ -480,6 +480,7 @@ footer .logo img {
   gap: 20px;
 
   padding: 20px 0;
+  justify-items: center;
 }
 
 .image-grid-item {
@@ -699,6 +700,10 @@ footer .logo img {
     margin: 12px 0;
   }
 
+  .img-equipe-grid {
+    grid-template-columns: auto;
+  }
+  
   .descricao-pessoa {
     margin: 0 0 25px;
   }
