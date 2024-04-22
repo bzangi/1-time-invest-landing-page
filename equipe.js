@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "Eduardo Brandao Machado.jpg",
     "Enzo Peloso.jpg",
     "Enzo Ruza Martins.jpg",
-    "Everson Caetano de Oliveira Filho.jpg",
     "Fabio Bruno Gusmao Silva.jpg",
     "Gabriel Matos Momesso Mercuri.jpg",
     "Gabriel Motto.jpg",
