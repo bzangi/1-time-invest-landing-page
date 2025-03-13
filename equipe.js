@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "Kleber Da Silva Almeida.jpg",
     "Leandro Pereira dos Santos.jpg",
     "Leonardo de Paula Silva.jpg",
-    "Matheus Silva Duarte.jpg",
     "Raphael Graziano Vasques.jpg",
     "Talita Mathias Colombo.jpg",
     "Tuanny Santos Campos.jpg"
