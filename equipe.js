@@ -22,7 +22,16 @@ document.addEventListener("DOMContentLoaded", function () {
     "Leonardo de Paula Silva.jpg",
     "Raphael Graziano Vasques.jpg",
     "Talita Mathias Colombo.jpg",
-    "Tuanny Santos Campos.jpg"
+    "Tuanny Santos Campos.jpg",
+    "Daiane Rocha Maron Pagan.jpg",
+    "Lucas Pinheiro Sanches.jpg",
+    "Danielle Cezar Severo Muniz.jpg",
+  ];
+
+  const employeesWithoutImage = [
+    "Daiane Rocha Maron Pagan",
+    "Lucas Pinheiro Sanches",
+    "Danielle Cezar Severo Muniz",
   ];
 
   // Loop through the image file names array
@@ -32,8 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
     div.classList.add("image-grid-item");
 
     var imgDiv = document.createElement("div");
-    imgDiv.classList.add("image-container");
-
 
     var description = document.createElement("p");
     description.classList.add("equipe-img-description");
@@ -42,7 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
     div.appendChild(imgDiv);
     div.appendChild(description);
 
-    imgDiv.style.backgroundImage = `url('assets/fotos-funcionarios/${fileName}')`;
+    var sFolderPath = `url('assets/fotos-funcionarios/${fileName}')`;
+    if (employeesWithoutImage.includes(description.textContent)) {
+      imgDiv.style.backgroundImage = `url('assets/fotos-funcionarios/generic.jpg')`;
+      imgDiv.classList.add("image-container");
+    } else {
+      imgDiv.style.backgroundImage = sFolderPath;
+      imgDiv.classList.add("image-container");
+      imgDiv.classList.add("image-shadow");
+    }
 
     // Append the div to the container
     container.appendChild(div);
